@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: aqua;
+    color: rosybrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#paper:hover, #rock:hover{
+    background-color: brown;
+    height: 120px;
+    padding-top: 9px;
+    padding-left: 14px;
+    cursor: pointer;
+}
+  
+#scissor:hover{
+    background-color: brown;
+    height: 160px;
+    padding-top: 9px;
+    padding-left: 14px;
+    cursor: pointer;
+}
+
+.play.win {
+    background-color: green;         /* Green background for win */
+}
+
+/* Lose state (Computer wins) */
+.play.lose {
+    background-color: red;           /* Red background for lose */
+}
+
+/* Draw state */
+.play.draw {
+    background-color: gray;          /* Gray background for draw */
+}
+
+
+
+.play {
+    background-color: rgb(44, 78, 99);       
+    color: white;  
+    transition: background-color 0.3s, transform 0.2s;                  
+    padding: 16px;                    
+    font-size: 18px;                 
+    border-radius: 10px;             
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);             
+    display: flex;                   
+    justify-content: flex-start;      
+    align-items: center;              
+    text-align: left;                
+    width: 37%;                      
+}
+
+
+
+
